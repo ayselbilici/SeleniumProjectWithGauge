@@ -1,0 +1,129 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 674milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 674"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52405"}
+{"logLevel":"info","message":"Listening on port:52405"}
+2022-03-16 16:43:52 INFO  Reflections:169 info - Reflections took 2129 ms to scan 79 urls, producing 5528 keys and 29599 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitSecond' and 'WebAutomationBase.step.BaseSteps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickElement' and 'WebAutomationBase.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat' and 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds' and 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes' and 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes'"}
+{"logLevel":"debug","message":"Found {} kere aşağı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.existTapByKey' and 'WebAutomationBase.step.BaseSteps.existTapByKey'"}
+{"logLevel":"debug","message":"Found {} li elementi bul ve varsa tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab' and 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Son sekmeye odaklan in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.justFindElement' and 'WebAutomationBase.step.BaseSteps.justFindElement'"}
+{"logLevel":"debug","message":"Found {} li elementi bul in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elementi bul ve varsa tıkla : public void existTapByKey(String key)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tSon sekmeye odaklan : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\t{} li elementi bul : public void justFindElement(String key)"}
+{"logLevel":"debug","message":"\t{} kere aşağı kaydır : public void scrollToBottomWithTimes(int times)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(int second)"}
+{"logLevel":"debug","message":"\tŞuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+2022-03-16 16:43:53 INFO  Reflections:169 info - Reflections took 1627 ms to scan 79 urls, producing 5464 keys and 23774 values 
+Mar 16, 2022 4:43:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 45565
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 16, 2022 4:43:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:43:58 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:43:59 INFO  BaseSteps:78 clickElement - Mainpage_CookieButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists"}
+2022-03-16 16:43:59 INFO  BaseSteps:89 getElementWithKeyIfExists - Mainpage_Mainhead elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Şuanki URL {} değerini içeriyor mu kontrol et' using 'class WebAutomationBase.step.BaseSteps.checkURLContainsRepeat"}
+2022-03-16 16:43:59 INFO  BaseSteps:109 checkURLContainsRepeat - Şuanki URLhttps://useinsider.com/ değerini içeriyor.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:43:59 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:43:59 INFO  BaseSteps:78 clickElement - Mainpage_MoreButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:00 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:05 INFO  BaseSteps:78 clickElement - Mainpage_CareersButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond"}
+2022-03-16 16:44:05 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists"}
+2022-03-16 16:44:08 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Locationheader elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists"}
+2022-03-16 16:44:08 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Lifearea elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} li elementi bul' using 'class WebAutomationBase.step.BaseSteps.justFindElement"}
+2022-03-16 16:44:08 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+2022-03-16 16:44:12 INFO  BaseSteps:158 justFindElement - Element bulundu.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond"}
+2022-03-16 16:44:12 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:15 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:16 INFO  BaseSteps:78 clickElement - Careerpage_AllteamsButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes"}
+2022-03-16 16:44:16 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 0
+2022-03-16 16:44:17 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 1
+2022-03-16 16:44:18 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 2
+2022-03-16 16:44:19 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 3
+2022-03-16 16:44:20 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 4
+2022-03-16 16:44:21 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 5
+2022-03-16 16:44:22 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 6
+2022-03-16 16:44:23 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 7
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:24 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:26 INFO  BaseSteps:78 clickElement - Careerpage_QAButton_ClickAction elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond"}
+2022-03-16 16:44:26 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists"}
+2022-03-16 16:44:31 INFO  BaseSteps:89 getElementWithKeyIfExists - QApage_AllJobsButton elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:31 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:33 INFO  BaseSteps:78 clickElement - QApage_AllJobsButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond"}
+2022-03-16 16:44:33 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:38 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:39 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey"}
+2022-03-16 16:44:39 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+2022-03-16 16:44:43 INFO  BaseSteps:143 existTapByKey - Istanbul_Text elementine tıklandı
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement"}
+2022-03-16 16:44:43 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+2022-03-16 16:44:43 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond"}
+2022-03-16 16:44:43 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes"}
+2022-03-16 16:44:48 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 0
+2022-03-16 16:44:49 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+Aşağı kaydı.. 1
+{"logLevel":"debug","message":"Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey"}
+2022-03-16 16:44:50 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+2022-03-16 16:44:54 INFO  BaseSteps:143 existTapByKey - Firstjob_applybutton elementine tıklandı
+{"logLevel":"debug","message":"Executing 'Son sekmeye odaklan' using 'class WebAutomationBase.step.BaseSteps.chromeFocusLastTab"}
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists"}
+2022-03-16 16:45:06 INFO  BaseSteps:89 getElementWithKeyIfExists - Firstjobpage_applybutton elementi bulundu.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

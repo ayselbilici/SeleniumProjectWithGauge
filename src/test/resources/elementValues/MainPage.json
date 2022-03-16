@@ -1,0 +1,27 @@
+[
+  {
+    "key": "Mainpage_CookieButton",
+    "value":"wt-cli-accept-btn",
+    "type": "id"
+  },
+  {
+    "key": "Mainpage_Mainhead",
+    "value":"main-head-desktop",
+    "type": "id"
+  },
+  {
+    "key": "Mainpage_LoginButton",
+    "value":"//a[@href='https://inone.useinsider.com/login']",
+    "type": "xpath"
+  },
+  {
+    "key": "Mainpage_CareersButton",
+    "value":"//a[@href='https://useinsider.com/careers/']//h5[text()='Careers']",
+    "type": "xpath"
+  },
+  {
+    "key": "Mainpage_MoreButton",
+    "value":"//a[@id='mega-menu-1']//span[text()='More']",
+    "type": "xpath"
+  }
+]

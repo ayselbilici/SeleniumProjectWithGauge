@@ -1,0 +1,37 @@
+[
+  {
+    "key": "QApage_AllJobsButton",
+    "value":"//a[@href='https://useinsider.com/careers/open-positions/?department=qualityassurance']",
+    "type": "xpath"
+  },
+  {
+    "key": "QApage_locationfilter_button",
+    "value":"select2-filter-by-location-container",
+    "type": "id"
+  },
+  {
+    "key": "Istanbul_Text",
+    "value":"//option[@class='job-location istanbul-turkey']",
+    "type": "xpath"
+  },
+  {
+    "key": "Location_List",
+    "value":"select2-filter-by-location-results",
+    "type": "id"
+  },
+  {
+    "key": "joblist_div",
+    "value":"//div[@class='position-list-item-wrapper bg-light']",
+    "type": "xpath"
+  },
+  {
+  "key": "Firstjob_applybutton",
+  "value":"//a[@href='https://jobs.lever.co/useinsider/6013cc18-8219-4587-a78c-9325c137b436']",
+  "type": "xpath"
+  },
+  {
+    "key": "Firstjobpage_applybutton",
+    "value":"//a[@href='https://jobs.lever.co/useinsider/6013cc18-8219-4587-a78c-9325c137b436/apply']",
+    "type": "xpath"
+  }
+]

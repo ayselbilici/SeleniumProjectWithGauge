@@ -1,0 +1,72 @@
+[
+  {
+    "key": "Careerpage_Locationheader",
+    "value":"//h3[@class='category-title-media ml-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "Careerpage_Lifearea",
+    "value":"//div[@class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-87842ec']",
+    "type": "xpath"
+  },
+  {
+    "key": "Careerpage_AllteamsButton",
+    "value":"//a[text()='See all teams']",
+    "type": "xpath"
+  },
+  {
+    "key": "Careerpage_QAButton",
+    "value":"//h3[text()='Quality Assurance']",
+    "type": "xpath"
+  },
+  {
+    "key": "Careerpage_QAButton_ClickAction",
+    "value":"//a[@href='https://useinsider.com/careers/quality-assurance/']",
+    "type": "xpath"
+  },
+  {
+    "key": "QApage_AllJobsButton",
+    "value":"//a[@href='https://useinsider.com/careers/open-positions/?department=qualityassurance']",
+    "type": "xpath"
+  },
+  {
+    "key": "QApage_locationfilter_button",
+    "value":"select2-filter-by-location-container",
+    "type": "id"
+  },
+  {
+    "key": "Istanbul_Text",
+    "value":"//option[@class='job-location istanbul-turkey']",
+    "type": "xpath"
+  },
+  {
+    "key": "Indiana_Text",
+    "value":"//option[@class='job-location indianapolis']",
+    "type": "xpath"
+  },
+  {
+    "key": "Location_List",
+    "value":"select2-filter-by-location-results",
+    "type": "id"
+  },
+  {
+    "key": "Job_list",
+    "value":"jobs-list",
+    "type": "id"
+  },
+  {
+    "key": "joblist_div",
+    "value":"//div[@class='position-list-item-wrapper bg-light']",
+    "type": "xpath"
+  },
+  {
+  "key": "Firstjob_applybutton",
+  "value":"//a[@href='https://jobs.lever.co/useinsider/6013cc18-8219-4587-a78c-9325c137b436']",
+  "type": "xpath"
+  },
+  {
+    "key": "Firstjobpage_applybutton",
+    "value":"//a[@href='https://jobs.lever.co/useinsider/6013cc18-8219-4587-a78c-9325c137b436/apply']",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,368 @@
+16-03-2022 16:43:46.292 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/ayselbilici/Desktop/ProjectWithGauge/.gauge/screenshots
+16-03-2022 16:43:46.294 [Gauge] [DEBUG] Plugin java is already installed.
+16-03-2022 16:43:46.294 [Gauge] [DEBUG] Plugin html-report is already installed.
+16-03-2022 16:43:46.295 [Gauge] [DEBUG] Parsing started.
+16-03-2022 16:43:46.295 [Gauge] [DEBUG] Started concepts parsing.
+16-03-2022 16:43:46.300 [Gauge] [DEBUG] 6 concepts parsing completed.
+16-03-2022 16:43:46.301 [Gauge] [DEBUG] Started specifications parsing.
+16-03-2022 16:43:46.301 [Gauge] [DEBUG] 1 specifications parsing completed.
+16-03-2022 16:43:46.301 [Gauge] [DEBUG] Parsing completed.
+16-03-2022 16:43:46.313 [java] [DEBUG] ***** Printing Properties/Env Values *****
+16-03-2022 16:43:46.313 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/ayselbilici/.gauge/plugins/screenshot/0.1.0
+16-03-2022 16:43:46.313 [java] [DEBUG] JAVA_HOME: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_project_root: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_parallel_streams_count: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_reports_dir: reports
+16-03-2022 16:43:46.313 [java] [DEBUG] overwrite_reports: true
+16-03-2022 16:43:46.313 [java] [DEBUG] logs_directory: logs
+16-03-2022 16:43:46.313 [java] [DEBUG] enable_multithreading: false
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_specs_dir: specs
+16-03-2022 16:43:46.313 [java] [DEBUG] csv_delimiter: ,
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_java_home: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_custom_build_path: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_additional_libs: libs/*
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_jvm_args: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_custom_compile_dir: 
+16-03-2022 16:43:46.313 [java] [DEBUG] gauge_clear_state_level: scenario
+16-03-2022 16:43:46.313 [java] [DEBUG] ***** END *****
+16-03-2022 16:43:46.882 [Gauge] [DEBUG] Checking updates...
+16-03-2022 16:43:46.883 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:43:47.125 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:43:47.227 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:43:47.309 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:43:47.378 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:43:49.310 [java] [DEBUG] classpath set to /Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.base:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.datatransfer:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.desktop:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.instrument:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.logging:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.management.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.naming:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.net.http:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.prefs:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.scripting:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.se:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.security.jgss:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.security.sasl:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.smartcardio:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.sql:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.sql.rowset:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.transaction.xa:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.xml:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.xml.crypto:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.accessibility:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.aot:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.attach:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.charsets:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.crypto.cryptoki:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.crypto.ec:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.dynalink:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.hotspot.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.httpserver:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.ed:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.jvmstat:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.le:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.ci:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.compiler.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jdi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jdwp.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jfr:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jsobject:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.localedata:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management.jfr:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.naming.dns:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.naming.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.net:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.pack:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.scripting.nashorn:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.scripting.nashorn.shell:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.sctp:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.security.auth:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.security.jgss:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.unsupported:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.xml.dom:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.zipfs:/Users/ayselbilici/Desktop/ProjectWithGauge/target/test-classes:/Users/ayselbilici/Desktop/ProjectWithGauge/target/classes:/Users/ayselbilici/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/ayselbilici/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/ayselbilici/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/ayselbilici/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/ayselbilici/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/ayselbilici/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/ayselbilici/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/ayselbilici/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/ayselbilici/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/ayselbilici/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/ayselbilici/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ayselbilici/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/ayselbilici/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/ayselbilici/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ayselbilici/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ayselbilici/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ayselbilici/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ayselbilici/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ayselbilici/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ayselbilici/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ayselbilici/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/ayselbilici/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/ayselbilici/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/ayselbilici/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/ayselbilici/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ayselbilici/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/8.2.2.jre11/mssql-jdbc-8.2.2.jre11.jar:/Users/ayselbilici/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/ayselbilici/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/ayselbilici/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ayselbilici/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/ayselbilici/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/ayselbilici/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/ayselbilici/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/ayselbilici/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ayselbilici/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar
+16-03-2022 16:43:49.310 [java] [DEBUG] found java executable in java
+16-03-2022 16:43:49.315 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+16-03-2022 16:43:49.315 [java] [DEBUG] stdout/stderr is logged to logs/9521-java.out
+16-03-2022 16:43:49.503 [java] [DEBUG] multithreading is set to false
+16-03-2022 16:43:49.867 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+16-03-2022 16:43:50.177 [java] [DEBUG] gauge-java took 674milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+16-03-2022 16:43:50.177 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 674
+16-03-2022 16:43:50.177 [java] [DEBUG] starting gRPC server...
+16-03-2022 16:43:50.445 [java] [DEBUG] started gRPC server on port 52405
+16-03-2022 16:43:50.445 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52405
+16-03-2022 16:43:50.590 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52405
+16-03-2022 16:43:50.590 [Gauge] [DEBUG] Validation started.
+16-03-2022 16:43:52.115 [java] [INFO] 2022-03-16 16:43:52 INFO  Reflections:169 info - Reflections took 2129 ms to scan 79 urls, producing 5528 keys and 29599 values
+16-03-2022 16:43:52.115 [java] [DEBUG] Scanning packages for steps
+16-03-2022 16:43:52.132 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.waitSecond' and 'WebAutomationBase.step.BaseSteps.waitSecond'
+16-03-2022 16:43:52.132 [java] [DEBUG] Found {} saniye bekle in current project scope.
+16-03-2022 16:43:52.132 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.clickElement' and 'WebAutomationBase.step.BaseSteps.clickElement'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+16-03-2022 16:43:52.133 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat' and 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope.
+16-03-2022 16:43:52.133 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found Element var mı kontrol et {} in current project scope.
+16-03-2022 16:43:52.133 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds' and 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found {} milisaniye bekle in current project scope.
+16-03-2022 16:43:52.133 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes' and 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found {} kere aşağı kaydır in current project scope.
+16-03-2022 16:43:52.133 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.existTapByKey' and 'WebAutomationBase.step.BaseSteps.existTapByKey'
+16-03-2022 16:43:52.133 [java] [DEBUG] Found {} li elementi bul ve varsa tıkla in current project scope.
+16-03-2022 16:43:52.134 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab' and 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab'
+16-03-2022 16:43:52.134 [java] [DEBUG] Found Son sekmeye odaklan in current project scope.
+16-03-2022 16:43:52.134 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.justFindElement' and 'WebAutomationBase.step.BaseSteps.justFindElement'
+16-03-2022 16:43:52.134 [java] [DEBUG] Found {} li elementi bul in current project scope.
+16-03-2022 16:43:52.134 [java] [DEBUG] Scanning packages for hooks
+16-03-2022 16:43:52.144 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+16-03-2022 16:43:52.144 [java] [DEBUG] 	{} li elementi bul ve varsa tıkla : public void existTapByKey(String key)
+16-03-2022 16:43:52.144 [java] [DEBUG] 	Element var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)
+16-03-2022 16:43:52.144 [java] [DEBUG] 	Son sekmeye odaklan : public void chromeFocusLastTab()
+16-03-2022 16:43:52.145 [java] [DEBUG] 	{} li elementi bul : public void justFindElement(String key)
+16-03-2022 16:43:52.145 [java] [DEBUG] 	{} kere aşağı kaydır : public void scrollToBottomWithTimes(int times)
+16-03-2022 16:43:52.145 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(int second)
+16-03-2022 16:43:52.145 [java] [DEBUG] 	Şuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)
+16-03-2022 16:43:52.145 [java] [DEBUG] 	{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)
+16-03-2022 16:43:52.145 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+16-03-2022 16:43:53.780 [java] [INFO] 2022-03-16 16:43:53 INFO  Reflections:169 info - Reflections took 1627 ms to scan 79 urls, producing 5464 keys and 23774 values
+16-03-2022 16:43:53.850 [Gauge] [DEBUG] Validation completed.
+16-03-2022 16:43:53.851 [Gauge] [DEBUG] Run started
+16-03-2022 16:43:53.853 [Gauge] [DEBUG] Starting Html Report plugin
+16-03-2022 16:43:53.867 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52411
+16-03-2022 16:43:53.868 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52411
+16-03-2022 16:43:53.868 [Gauge] [DEBUG] Initialising suite data store.
+16-03-2022 16:43:53.920 [java] [ERROR] Mar 16, 2022 4:43:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+16-03-2022 16:43:53.920 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+16-03-2022 16:43:54.178 [java] [ERROR] Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 45565
+16-03-2022 16:43:54.179 [java] [ERROR] Only local connections are allowed.
+16-03-2022 16:43:54.179 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+16-03-2022 16:43:54.181 [java] [ERROR] ChromeDriver was started successfully.
+16-03-2022 16:43:55.481 [java] [ERROR] Mar 16, 2022 4:43:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+16-03-2022 16:43:55.487 [java] [ERROR] INFO: Detected dialect: W3C
+16-03-2022 16:43:58.313 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:43:58.550 [java] [INFO] 2022-03-16 16:43:58 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:43:59.143 [java] [INFO] 2022-03-16 16:43:59 INFO  BaseSteps:78 clickElement - Mainpage_CookieButton elementine tıklandı.
+16-03-2022 16:43:59.156 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:43:59.190 [java] [INFO] 2022-03-16 16:43:59 INFO  BaseSteps:89 getElementWithKeyIfExists - Mainpage_Mainhead elementi bulundu.
+16-03-2022 16:43:59.201 [java] [DEBUG] Executing 'Şuanki URL {} değerini içeriyor mu kontrol et' using 'class WebAutomationBase.step.BaseSteps.checkURLContainsRepeat
+16-03-2022 16:43:59.206 [java] [INFO] 2022-03-16 16:43:59 INFO  BaseSteps:109 checkURLContainsRepeat - Şuanki URLhttps://useinsider.com/ değerini içeriyor.
+16-03-2022 16:43:59.217 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:43:59.365 [java] [INFO] 2022-03-16 16:43:59 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:43:59.916 [java] [INFO] 2022-03-16 16:43:59 INFO  BaseSteps:78 clickElement - Mainpage_MoreButton elementine tıklandı.
+16-03-2022 16:43:59.925 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:00.125 [java] [INFO] 2022-03-16 16:44:00 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:05.374 [java] [INFO] 2022-03-16 16:44:05 INFO  BaseSteps:78 clickElement - Mainpage_CareersButton elementine tıklandı.
+16-03-2022 16:44:05.381 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:44:05.382 [java] [INFO] 2022-03-16 16:44:05 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+16-03-2022 16:44:08.394 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:44:08.413 [java] [INFO] 2022-03-16 16:44:08 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Locationheader elementi bulundu.
+16-03-2022 16:44:08.418 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:44:08.438 [java] [INFO] 2022-03-16 16:44:08 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Lifearea elementi bulundu.
+16-03-2022 16:44:08.443 [java] [DEBUG] Executing '{} li elementi bul' using 'class WebAutomationBase.step.BaseSteps.justFindElement
+16-03-2022 16:44:08.443 [java] [INFO] 2022-03-16 16:44:08 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:44:12.465 [java] [INFO] 2022-03-16 16:44:12 INFO  BaseSteps:158 justFindElement - Element bulundu.
+16-03-2022 16:44:12.470 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:44:12.471 [java] [INFO] 2022-03-16 16:44:12 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+16-03-2022 16:44:15.480 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:15.611 [java] [INFO] 2022-03-16 16:44:15 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:16.169 [java] [INFO] 2022-03-16 16:44:16 INFO  BaseSteps:78 clickElement - Careerpage_AllteamsButton elementine tıklandı.
+16-03-2022 16:44:16.178 [java] [DEBUG] Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes
+16-03-2022 16:44:16.186 [java] [INFO] 2022-03-16 16:44:16 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:17.191 [java] [INFO] Aşağı kaydı.. 0
+16-03-2022 16:44:17.198 [java] [INFO] 2022-03-16 16:44:17 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:18.201 [java] [INFO] Aşağı kaydı.. 1
+16-03-2022 16:44:18.209 [java] [INFO] 2022-03-16 16:44:18 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:19.213 [java] [INFO] Aşağı kaydı.. 2
+16-03-2022 16:44:19.221 [java] [INFO] 2022-03-16 16:44:19 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:20.225 [java] [INFO] Aşağı kaydı.. 3
+16-03-2022 16:44:20.233 [java] [INFO] 2022-03-16 16:44:20 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:21.234 [java] [INFO] Aşağı kaydı.. 4
+16-03-2022 16:44:21.242 [java] [INFO] 2022-03-16 16:44:21 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:22.246 [java] [INFO] Aşağı kaydı.. 5
+16-03-2022 16:44:22.252 [java] [INFO] 2022-03-16 16:44:22 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:23.252 [java] [INFO] Aşağı kaydı.. 6
+16-03-2022 16:44:23.259 [java] [INFO] 2022-03-16 16:44:23 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:24.263 [java] [INFO] Aşağı kaydı.. 7
+16-03-2022 16:44:24.268 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:24.396 [java] [INFO] 2022-03-16 16:44:24 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:26.383 [java] [INFO] 2022-03-16 16:44:26 INFO  BaseSteps:78 clickElement - Careerpage_QAButton_ClickAction elementine tıklandı.
+16-03-2022 16:44:26.388 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:44:26.388 [java] [INFO] 2022-03-16 16:44:26 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:44:31.398 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:44:31.422 [java] [INFO] 2022-03-16 16:44:31 INFO  BaseSteps:89 getElementWithKeyIfExists - QApage_AllJobsButton elementi bulundu.
+16-03-2022 16:44:31.428 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:31.563 [java] [INFO] 2022-03-16 16:44:31 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:33.295 [java] [INFO] 2022-03-16 16:44:33 INFO  BaseSteps:78 clickElement - QApage_AllJobsButton elementine tıklandı.
+16-03-2022 16:44:33.304 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:44:33.304 [java] [INFO] 2022-03-16 16:44:33 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:44:38.314 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:38.481 [java] [INFO] 2022-03-16 16:44:38 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:39.045 [java] [INFO] 2022-03-16 16:44:39 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+16-03-2022 16:44:39.051 [java] [DEBUG] Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey
+16-03-2022 16:44:39.051 [java] [INFO] 2022-03-16 16:44:39 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:44:43.116 [java] [INFO] 2022-03-16 16:44:43 INFO  BaseSteps:143 existTapByKey - Istanbul_Text elementine tıklandı
+16-03-2022 16:44:43.121 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:44:43.261 [java] [INFO] 2022-03-16 16:44:43 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:44:43.787 [java] [INFO] 2022-03-16 16:44:43 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+16-03-2022 16:44:43.792 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:44:43.792 [java] [INFO] 2022-03-16 16:44:43 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:44:48.803 [java] [DEBUG] Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes
+16-03-2022 16:44:48.811 [java] [INFO] 2022-03-16 16:44:48 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:49.815 [java] [INFO] Aşağı kaydı.. 0
+16-03-2022 16:44:49.822 [java] [INFO] 2022-03-16 16:44:49 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:44:50.825 [java] [INFO] Aşağı kaydı.. 1
+16-03-2022 16:44:50.831 [java] [DEBUG] Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey
+16-03-2022 16:44:50.832 [java] [INFO] 2022-03-16 16:44:50 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:44:54.974 [java] [INFO] 2022-03-16 16:44:54 INFO  BaseSteps:143 existTapByKey - Firstjob_applybutton elementine tıklandı
+16-03-2022 16:44:54.982 [java] [DEBUG] Executing 'Son sekmeye odaklan' using 'class WebAutomationBase.step.BaseSteps.chromeFocusLastTab
+16-03-2022 16:44:54.999 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:45:06.435 [java] [INFO] 2022-03-16 16:45:06 INFO  BaseSteps:89 getElementWithKeyIfExists - Firstjobpage_applybutton elementi bulundu.
+16-03-2022 16:45:06.619 [html-report] [DEBUG] Transformed SuiteResult to report structure
+16-03-2022 16:45:06.651 [html-report] [INFO] Successfully generated html-report to => /Users/ayselbilici/Desktop/ProjectWithGauge/reports/html-report/index.html
+16-03-2022 16:45:06.651 [html-report] [DEBUG] Done generating HTML report using theme from /Users/ayselbilici/.gauge/plugins/html-report/4.0.12/themes/default
+16-03-2022 16:45:06.651 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+16-03-2022 16:45:06.652 [java] [DEBUG] Killing Java runner...
+16-03-2022 16:45:06.654 [java] [DEBUG] Stopping execution pool...
+16-03-2022 16:45:06.654 [java] [DEBUG] Shutting down grpc server...
+16-03-2022 16:45:06.662 [java] [DEBUG] Runner killed gracefully.
+16-03-2022 16:45:07.170 [Gauge] [DEBUG] Runner with PID:9521 has exited
+16-03-2022 16:45:07.170 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+16-03-2022 16:45:07.170 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16-03-2022 16:45:07.170 [Gauge] [INFO] 
+Total time taken: 1m12.768s
+16-03-2022 16:45:07.170 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+16-03-2022 16:56:47.781 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/ayselbilici/Desktop/ProjectWithGauge/.gauge/screenshots
+16-03-2022 16:56:47.782 [Gauge] [DEBUG] Plugin java is already installed.
+16-03-2022 16:56:47.783 [Gauge] [DEBUG] Plugin html-report is already installed.
+16-03-2022 16:56:47.783 [Gauge] [DEBUG] Parsing started.
+16-03-2022 16:56:47.783 [Gauge] [DEBUG] Started concepts parsing.
+16-03-2022 16:56:47.788 [Gauge] [DEBUG] 6 concepts parsing completed.
+16-03-2022 16:56:47.788 [Gauge] [DEBUG] Started specifications parsing.
+16-03-2022 16:56:47.789 [Gauge] [DEBUG] 1 specifications parsing completed.
+16-03-2022 16:56:47.789 [Gauge] [DEBUG] Parsing completed.
+16-03-2022 16:56:47.800 [java] [DEBUG] ***** Printing Properties/Env Values *****
+16-03-2022 16:56:47.800 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/ayselbilici/.gauge/plugins/screenshot/0.1.0
+16-03-2022 16:56:47.800 [java] [DEBUG] JAVA_HOME: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_project_root: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_parallel_streams_count: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_reports_dir: reports
+16-03-2022 16:56:47.801 [java] [DEBUG] overwrite_reports: true
+16-03-2022 16:56:47.801 [java] [DEBUG] logs_directory: logs
+16-03-2022 16:56:47.801 [java] [DEBUG] enable_multithreading: false
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_specs_dir: specs
+16-03-2022 16:56:47.801 [java] [DEBUG] csv_delimiter: ,
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_java_home: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_custom_build_path: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_additional_libs: libs/*
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_jvm_args: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_custom_compile_dir: 
+16-03-2022 16:56:47.801 [java] [DEBUG] gauge_clear_state_level: scenario
+16-03-2022 16:56:47.801 [java] [DEBUG] ***** END *****
+16-03-2022 16:56:48.424 [Gauge] [DEBUG] Checking updates...
+16-03-2022 16:56:48.425 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:56:48.683 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:56:48.749 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:56:48.821 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:56:48.891 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+16-03-2022 16:56:51.014 [java] [DEBUG] classpath set to /Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.base:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.datatransfer:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.desktop:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.instrument:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.logging:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.management.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.naming:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.net.http:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.prefs:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.scripting:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.se:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.security.jgss:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.security.sasl:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.smartcardio:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.sql:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.sql.rowset:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.transaction.xa:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.xml:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/java.xml.crypto:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.accessibility:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.aot:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.attach:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.charsets:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.crypto.cryptoki:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.crypto.ec:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.dynalink:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.hotspot.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.httpserver:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.ed:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.jvmstat:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.le:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.ci:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.compiler:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.internal.vm.compiler.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jdi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jdwp.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jfr:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.jsobject:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.localedata:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management.agent:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.management.jfr:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.naming.dns:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.naming.rmi:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.net:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.pack:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.scripting.nashorn:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.scripting.nashorn.shell:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.sctp:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.security.auth:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.security.jgss:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.unsupported:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.xml.dom:/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home!/jdk.zipfs:/Users/ayselbilici/Desktop/ProjectWithGauge/target/test-classes:/Users/ayselbilici/Desktop/ProjectWithGauge/target/classes:/Users/ayselbilici/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/ayselbilici/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/ayselbilici/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/ayselbilici/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/ayselbilici/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/ayselbilici/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/ayselbilici/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/ayselbilici/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/ayselbilici/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/ayselbilici/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/ayselbilici/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ayselbilici/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/ayselbilici/.m2/repository/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/ayselbilici/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/ayselbilici/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/ayselbilici/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ayselbilici/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ayselbilici/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ayselbilici/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ayselbilici/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ayselbilici/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ayselbilici/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ayselbilici/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/ayselbilici/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/ayselbilici/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/ayselbilici/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/ayselbilici/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/ayselbilici/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/ayselbilici/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ayselbilici/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/8.2.2.jre11/mssql-jdbc-8.2.2.jre11.jar:/Users/ayselbilici/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/ayselbilici/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/ayselbilici/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ayselbilici/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ayselbilici/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ayselbilici/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/ayselbilici/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/ayselbilici/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/ayselbilici/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/ayselbilici/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/ayselbilici/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/ayselbilici/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ayselbilici/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar
+16-03-2022 16:56:51.014 [java] [DEBUG] found java executable in java
+16-03-2022 16:56:51.019 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+16-03-2022 16:56:51.019 [java] [DEBUG] stdout/stderr is logged to logs/9887-java.out
+16-03-2022 16:56:51.207 [java] [DEBUG] multithreading is set to false
+16-03-2022 16:56:51.585 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+16-03-2022 16:56:51.907 [java] [DEBUG] gauge-java took 700milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+16-03-2022 16:56:51.908 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 700
+16-03-2022 16:56:51.908 [java] [DEBUG] starting gRPC server...
+16-03-2022 16:56:52.226 [java] [DEBUG] started gRPC server on port 52706
+16-03-2022 16:56:52.226 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52706
+16-03-2022 16:56:52.392 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52706
+16-03-2022 16:56:52.392 [Gauge] [DEBUG] Validation started.
+16-03-2022 16:56:54.039 [java] [INFO] 2022-03-16 16:56:54 INFO  Reflections:169 info - Reflections took 2337 ms to scan 79 urls, producing 5528 keys and 29599 values
+16-03-2022 16:56:54.039 [java] [DEBUG] Scanning packages for steps
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.waitSecond' and 'WebAutomationBase.step.BaseSteps.waitSecond'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found {} saniye bekle in current project scope.
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.clickElement' and 'WebAutomationBase.step.BaseSteps.clickElement'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat' and 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope.
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found Element var mı kontrol et {} in current project scope.
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds' and 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found {} milisaniye bekle in current project scope.
+16-03-2022 16:56:54.053 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes' and 'WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes'
+16-03-2022 16:56:54.053 [java] [DEBUG] Found {} kere aşağı kaydır in current project scope.
+16-03-2022 16:56:54.054 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.existTapByKey' and 'WebAutomationBase.step.BaseSteps.existTapByKey'
+16-03-2022 16:56:54.054 [java] [DEBUG] Found {} li elementi bul ve varsa tıkla in current project scope.
+16-03-2022 16:56:54.054 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab' and 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab'
+16-03-2022 16:56:54.054 [java] [DEBUG] Found Son sekmeye odaklan in current project scope.
+16-03-2022 16:56:54.054 [java] [DEBUG] Comparing 'WebAutomationBase.step.BaseSteps.justFindElement' and 'WebAutomationBase.step.BaseSteps.justFindElement'
+16-03-2022 16:56:54.054 [java] [DEBUG] Found {} li elementi bul in current project scope.
+16-03-2022 16:56:54.054 [java] [DEBUG] Scanning packages for hooks
+16-03-2022 16:56:54.061 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+16-03-2022 16:56:54.061 [java] [DEBUG] 	{} li elementi bul ve varsa tıkla : public void existTapByKey(String key)
+16-03-2022 16:56:54.061 [java] [DEBUG] 	Element var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	Son sekmeye odaklan : public void chromeFocusLastTab()
+16-03-2022 16:56:54.062 [java] [DEBUG] 	{} li elementi bul : public void justFindElement(String key)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	{} kere aşağı kaydır : public void scrollToBottomWithTimes(int times)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(int second)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	Şuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)
+16-03-2022 16:56:54.062 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+16-03-2022 16:56:55.621 [java] [INFO] 2022-03-16 16:56:55 INFO  Reflections:169 info - Reflections took 1552 ms to scan 79 urls, producing 5464 keys and 23774 values
+16-03-2022 16:56:55.668 [Gauge] [DEBUG] Validation completed.
+16-03-2022 16:56:55.668 [Gauge] [DEBUG] Run started
+16-03-2022 16:56:55.670 [Gauge] [DEBUG] Starting Html Report plugin
+16-03-2022 16:56:55.678 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52711
+16-03-2022 16:56:55.678 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52711
+16-03-2022 16:56:55.678 [Gauge] [DEBUG] Initialising suite data store.
+16-03-2022 16:56:55.717 [java] [ERROR] Mar 16, 2022 4:56:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+16-03-2022 16:56:55.717 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+16-03-2022 16:56:55.939 [java] [ERROR] Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 44276
+16-03-2022 16:56:55.939 [java] [ERROR] Only local connections are allowed.
+16-03-2022 16:56:55.939 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+16-03-2022 16:56:55.941 [java] [ERROR] ChromeDriver was started successfully.
+16-03-2022 16:56:57.194 [java] [ERROR] Mar 16, 2022 4:56:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+16-03-2022 16:56:57.197 [java] [ERROR] INFO: Detected dialect: W3C
+16-03-2022 16:57:00.032 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:00.281 [java] [INFO] 2022-03-16 16:57:00 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:00.870 [java] [INFO] 2022-03-16 16:57:00 INFO  BaseSteps:78 clickElement - Mainpage_CookieButton elementine tıklandı.
+16-03-2022 16:57:00.888 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:57:00.920 [java] [INFO] 2022-03-16 16:57:00 INFO  BaseSteps:89 getElementWithKeyIfExists - Mainpage_Mainhead elementi bulundu.
+16-03-2022 16:57:00.932 [java] [DEBUG] Executing 'Şuanki URL {} değerini içeriyor mu kontrol et' using 'class WebAutomationBase.step.BaseSteps.checkURLContainsRepeat
+16-03-2022 16:57:00.937 [java] [INFO] 2022-03-16 16:57:00 INFO  BaseSteps:109 checkURLContainsRepeat - Şuanki URLhttps://useinsider.com/ değerini içeriyor.
+16-03-2022 16:57:00.946 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:01.113 [java] [INFO] 2022-03-16 16:57:01 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:01.650 [java] [INFO] 2022-03-16 16:57:01 INFO  BaseSteps:78 clickElement - Mainpage_MoreButton elementine tıklandı.
+16-03-2022 16:57:01.657 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:01.840 [java] [INFO] 2022-03-16 16:57:01 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:07.521 [java] [INFO] 2022-03-16 16:57:07 INFO  BaseSteps:78 clickElement - Mainpage_CareersButton elementine tıklandı.
+16-03-2022 16:57:07.529 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:57:07.530 [java] [INFO] 2022-03-16 16:57:07 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+16-03-2022 16:57:10.538 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:57:10.583 [java] [INFO] 2022-03-16 16:57:10 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Locationheader elementi bulundu.
+16-03-2022 16:57:10.590 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:57:10.609 [java] [INFO] 2022-03-16 16:57:10 INFO  BaseSteps:89 getElementWithKeyIfExists - Careerpage_Lifearea elementi bulundu.
+16-03-2022 16:57:10.615 [java] [DEBUG] Executing '{} li elementi bul' using 'class WebAutomationBase.step.BaseSteps.justFindElement
+16-03-2022 16:57:10.615 [java] [INFO] 2022-03-16 16:57:10 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:57:14.638 [java] [INFO] 2022-03-16 16:57:14 INFO  BaseSteps:158 justFindElement - Element bulundu.
+16-03-2022 16:57:14.652 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:57:14.653 [java] [INFO] 2022-03-16 16:57:14 INFO  BaseSteps:64 waitByMilliSeconds - 3000 milisaniye bekleniyor.
+16-03-2022 16:57:17.664 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:17.793 [java] [INFO] 2022-03-16 16:57:17 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:18.390 [java] [INFO] 2022-03-16 16:57:18 INFO  BaseSteps:78 clickElement - Careerpage_AllteamsButton elementine tıklandı.
+16-03-2022 16:57:18.399 [java] [DEBUG] Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes
+16-03-2022 16:57:18.406 [java] [INFO] 2022-03-16 16:57:18 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:19.411 [java] [INFO] Aşağı kaydı.. 0
+16-03-2022 16:57:19.418 [java] [INFO] 2022-03-16 16:57:19 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:20.422 [java] [INFO] Aşağı kaydı.. 1
+16-03-2022 16:57:20.427 [java] [INFO] 2022-03-16 16:57:20 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:21.432 [java] [INFO] Aşağı kaydı.. 2
+16-03-2022 16:57:21.438 [java] [INFO] 2022-03-16 16:57:21 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:22.441 [java] [INFO] Aşağı kaydı.. 3
+16-03-2022 16:57:22.448 [java] [INFO] 2022-03-16 16:57:22 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:23.451 [java] [INFO] Aşağı kaydı.. 4
+16-03-2022 16:57:23.456 [java] [INFO] 2022-03-16 16:57:23 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:24.458 [java] [INFO] Aşağı kaydı.. 5
+16-03-2022 16:57:24.463 [java] [INFO] 2022-03-16 16:57:24 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:25.466 [java] [INFO] Aşağı kaydı.. 6
+16-03-2022 16:57:25.473 [java] [INFO] 2022-03-16 16:57:25 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:26.475 [java] [INFO] Aşağı kaydı.. 7
+16-03-2022 16:57:26.482 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:26.628 [java] [INFO] 2022-03-16 16:57:26 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:28.777 [java] [INFO] 2022-03-16 16:57:28 INFO  BaseSteps:78 clickElement - Careerpage_QAButton_ClickAction elementine tıklandı.
+16-03-2022 16:57:28.783 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:57:28.783 [java] [INFO] 2022-03-16 16:57:28 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:57:33.791 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:57:33.813 [java] [INFO] 2022-03-16 16:57:33 INFO  BaseSteps:89 getElementWithKeyIfExists - QApage_AllJobsButton elementi bulundu.
+16-03-2022 16:57:33.818 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:33.943 [java] [INFO] 2022-03-16 16:57:33 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:35.985 [java] [INFO] 2022-03-16 16:57:35 INFO  BaseSteps:78 clickElement - QApage_AllJobsButton elementine tıklandı.
+16-03-2022 16:57:35.994 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:57:35.994 [java] [INFO] 2022-03-16 16:57:35 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:57:41.004 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:41.180 [java] [INFO] 2022-03-16 16:57:41 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:41.738 [java] [INFO] 2022-03-16 16:57:41 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+16-03-2022 16:57:41.752 [java] [DEBUG] Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey
+16-03-2022 16:57:41.752 [java] [INFO] 2022-03-16 16:57:41 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:57:45.809 [java] [INFO] 2022-03-16 16:57:45 INFO  BaseSteps:143 existTapByKey - Istanbul_Text elementine tıklandı
+16-03-2022 16:57:45.815 [java] [DEBUG] Executing 'Elementine tıkla {}' using 'class WebAutomationBase.step.BaseSteps.clickElement
+16-03-2022 16:57:45.942 [java] [INFO] 2022-03-16 16:57:45 INFO  BaseSteps:64 waitByMilliSeconds - 500 milisaniye bekleniyor.
+16-03-2022 16:57:46.482 [java] [INFO] 2022-03-16 16:57:46 INFO  BaseSteps:78 clickElement - QApage_locationfilter_button elementine tıklandı.
+16-03-2022 16:57:46.488 [java] [DEBUG] Executing '{} saniye bekle' using 'class WebAutomationBase.step.BaseSteps.waitSecond
+16-03-2022 16:57:46.488 [java] [INFO] 2022-03-16 16:57:46 INFO  BaseSteps:64 waitByMilliSeconds - 5000 milisaniye bekleniyor.
+16-03-2022 16:57:51.497 [java] [DEBUG] Executing '{} kere aşağı kaydır' using 'class WebAutomationBase.step.BaseSteps.scrollToBottomWithTimes
+16-03-2022 16:57:51.503 [java] [INFO] 2022-03-16 16:57:51 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:52.504 [java] [INFO] Aşağı kaydı.. 0
+16-03-2022 16:57:52.510 [java] [INFO] 2022-03-16 16:57:52 INFO  BaseSteps:64 waitByMilliSeconds - 1000 milisaniye bekleniyor.
+16-03-2022 16:57:53.513 [java] [INFO] Aşağı kaydı.. 1
+16-03-2022 16:57:53.519 [java] [DEBUG] Executing '{} li elementi bul ve varsa tıkla' using 'class WebAutomationBase.step.BaseSteps.existTapByKey
+16-03-2022 16:57:53.520 [java] [INFO] 2022-03-16 16:57:53 INFO  BaseSteps:64 waitByMilliSeconds - 4000 milisaniye bekleniyor.
+16-03-2022 16:57:57.678 [java] [INFO] 2022-03-16 16:57:57 INFO  BaseSteps:143 existTapByKey - Firstjob_applybutton elementine tıklandı
+16-03-2022 16:57:57.688 [java] [DEBUG] Executing 'Son sekmeye odaklan' using 'class WebAutomationBase.step.BaseSteps.chromeFocusLastTab
+16-03-2022 16:57:57.706 [java] [DEBUG] Executing 'Element var mı kontrol et {}' using 'class WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists
+16-03-2022 16:58:02.578 [java] [INFO] 2022-03-16 16:58:02 INFO  BaseSteps:89 getElementWithKeyIfExists - Firstjobpage_applybutton elementi bulundu.
+16-03-2022 16:58:02.852 [html-report] [DEBUG] Transformed SuiteResult to report structure
+16-03-2022 16:58:02.876 [html-report] [INFO] Successfully generated html-report to => /Users/ayselbilici/Desktop/ProjectWithGauge/reports/html-report/index.html
+16-03-2022 16:58:02.876 [html-report] [DEBUG] Done generating HTML report using theme from /Users/ayselbilici/.gauge/plugins/html-report/4.0.12/themes/default
+16-03-2022 16:58:02.876 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+16-03-2022 16:58:02.878 [java] [DEBUG] Killing Java runner...
+16-03-2022 16:58:02.879 [java] [DEBUG] Stopping execution pool...
+16-03-2022 16:58:02.879 [java] [DEBUG] Shutting down grpc server...
+16-03-2022 16:58:02.888 [java] [DEBUG] Runner killed gracefully.
+16-03-2022 16:58:03.398 [Gauge] [DEBUG] Runner with PID:9887 has exited
+16-03-2022 16:58:03.398 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+16-03-2022 16:58:03.398 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16-03-2022 16:58:03.399 [Gauge] [INFO] 
+Total time taken: 1m7.183s
+16-03-2022 16:58:03.399 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

@@ -1,0 +1,123 @@
+16-03-2022 16:43:13.710 [Gauge] [INFO] Watching directory: /Users/ayselbilici/Desktop/ProjectWithGauge/specs
+16-03-2022 16:43:13.711 [Gauge] [DEBUG] Found 2 files
+16-03-2022 16:43:13.713 [Gauge] [INFO] Initializing concepts cache with 6 concepts
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.714 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:43:13.715 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-03-2022 16:43:13.715 [Gauge] [DEBUG] Adding specs from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.spec
+16-03-2022 16:43:13.715 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-03-2022 16:43:13.715 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52379
+16-03-2022 16:43:19.174 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Visit insider site and check Insider home page is opened"}
+16-03-2022 16:43:19.174 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Visit insider site and check Insider home page is opened" parameterizedStepValue:"Visit insider site and check Insider home page is opened"}}
+16-03-2022 16:43:19.667 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<long> milisaniye bekle"}
+16-03-2022 16:43:19.667 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} milisaniye bekle" parameterizedStepValue:"<long> milisaniye bekle" parameters:"long"}}
+16-03-2022 16:43:19.669 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Elementine tıkla <key>"}
+16-03-2022 16:43:19.669 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Elementine tıkla {}" parameterizedStepValue:"Elementine tıkla <key>" parameters:"key"}}
+16-03-2022 16:43:19.670 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Element var mı kontrol et <key>"}
+16-03-2022 16:43:19.670 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Element var mı kontrol et {}" parameterizedStepValue:"Element var mı kontrol et <key>" parameters:"key"}}
+16-03-2022 16:43:19.670 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Şuanki URL <url> değerini içeriyor mu kontrol et"}
+16-03-2022 16:43:19.671 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Şuanki URL {} değerini içeriyor mu kontrol et" parameterizedStepValue:"Şuanki URL <url> değerini içeriyor mu kontrol et" parameters:"url"}}
+16-03-2022 16:43:19.671 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Son sekmeye odaklan"}
+16-03-2022 16:43:19.671 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Son sekmeye odaklan" parameterizedStepValue:"Son sekmeye odaklan"}}
+16-03-2022 16:43:19.672 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> li elementi bul ve varsa tıkla"}
+16-03-2022 16:43:19.672 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} li elementi bul ve varsa tıkla" parameterizedStepValue:"<key> li elementi bul ve varsa tıkla" parameters:"key"}}
+16-03-2022 16:43:19.673 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> li elementi bul"}
+16-03-2022 16:43:19.673 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} li elementi bul" parameterizedStepValue:"<key> li elementi bul" parameters:"key"}}
+16-03-2022 16:43:19.673 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<times> kere aşağı kaydır"}
+16-03-2022 16:43:19.673 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} kere aşağı kaydır" parameterizedStepValue:"<times> kere aşağı kaydır" parameters:"times"}}
+16-03-2022 16:43:19.674 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> saniye bekle"}
+16-03-2022 16:43:19.674 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} saniye bekle" parameterizedStepValue:"<key> saniye bekle" parameters:"key"}}
+16-03-2022 16:43:19.872 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Visit insider site and check Insider home page is opened"}
+16-03-2022 16:43:19.872 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Visit insider site and check Insider home page is opened" parameterizedStepValue:"Visit insider site and check Insider home page is opened"}}
+16-03-2022 16:43:19.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Select More menu and click Careers option"}
+16-03-2022 16:43:19.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Select More menu and click Careers option" parameterizedStepValue:"Select More menu and click Careers option"}}
+16-03-2022 16:43:19.966 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Select More menu and click Careers option"}
+16-03-2022 16:43:19.967 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Select More menu and click Careers option" parameterizedStepValue:"Select More menu and click Careers option"}}
+16-03-2022 16:43:19.968 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click See All Teams button and select Quality Assurance option"}
+16-03-2022 16:43:19.968 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See All Teams button and select Quality Assurance option" parameterizedStepValue:"Click See All Teams button and select Quality Assurance option"}}
+16-03-2022 16:43:20.083 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click See All Teams button and select Quality Assurance option"}
+16-03-2022 16:43:20.083 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See All Teams button and select Quality Assurance option" parameterizedStepValue:"Click See All Teams button and select Quality Assurance option"}}
+16-03-2022 16:43:20.129 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click See all QA jobs button"}
+16-03-2022 16:43:20.129 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See all QA jobs button" parameterizedStepValue:"Click See all QA jobs button"}}
+16-03-2022 16:43:20.203 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click See all QA jobs button"}
+16-03-2022 16:43:20.203 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See all QA jobs button" parameterizedStepValue:"Click See all QA jobs button"}}
+16-03-2022 16:43:20.204 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Added Location İstanbul, Turkey and department Quality Assurance filters"}
+16-03-2022 16:43:20.204 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters" parameterizedStepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters"}}
+16-03-2022 16:43:20.258 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Added Location İstanbul, Turkey and department Quality Assurance filters"}
+16-03-2022 16:43:20.258 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters" parameterizedStepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters"}}
+16-03-2022 16:43:20.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click apply now button and redirects us to Lever Application form page"}
+16-03-2022 16:43:20.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click apply now button and redirects us to Lever Application form page" parameterizedStepValue:"Click apply now button and redirects us to Lever Application form page"}}
+16-03-2022 16:43:20.334 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click apply now button and redirects us to Lever Application form page"}
+16-03-2022 16:43:20.334 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click apply now button and redirects us to Lever Application form page" parameterizedStepValue:"Click apply now button and redirects us to Lever Application form page"}}
+16-03-2022 16:55:59.470 [Gauge] [INFO] Watching directory: /Users/ayselbilici/Desktop/ProjectWithGauge/specs
+16-03-2022 16:55:59.471 [Gauge] [DEBUG] Found 2 files
+16-03-2022 16:55:59.474 [Gauge] [INFO] Initializing concepts cache with 6 concepts
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.474 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:55:59.475 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-03-2022 16:55:59.475 [Gauge] [DEBUG] Adding specs from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.spec
+16-03-2022 16:55:59.475 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-03-2022 16:55:59.475 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52683
+16-03-2022 16:56:04.862 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Visit insider site and check Insider home page is opened"}
+16-03-2022 16:56:04.862 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Visit insider site and check Insider home page is opened" parameterizedStepValue:"Visit insider site and check Insider home page is opened"}}
+16-03-2022 16:56:04.874 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<long> milisaniye bekle"}
+16-03-2022 16:56:04.874 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} milisaniye bekle" parameterizedStepValue:"<long> milisaniye bekle" parameters:"long"}}
+16-03-2022 16:56:04.876 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Elementine tıkla <key>"}
+16-03-2022 16:56:04.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Elementine tıkla {}" parameterizedStepValue:"Elementine tıkla <key>" parameters:"key"}}
+16-03-2022 16:56:04.877 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Element var mı kontrol et <key>"}
+16-03-2022 16:56:04.877 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Element var mı kontrol et {}" parameterizedStepValue:"Element var mı kontrol et <key>" parameters:"key"}}
+16-03-2022 16:56:04.877 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Şuanki URL <url> değerini içeriyor mu kontrol et"}
+16-03-2022 16:56:04.877 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Şuanki URL {} değerini içeriyor mu kontrol et" parameterizedStepValue:"Şuanki URL <url> değerini içeriyor mu kontrol et" parameters:"url"}}
+16-03-2022 16:56:04.878 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Son sekmeye odaklan"}
+16-03-2022 16:56:04.878 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Son sekmeye odaklan" parameterizedStepValue:"Son sekmeye odaklan"}}
+16-03-2022 16:56:04.878 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> li elementi bul ve varsa tıkla"}
+16-03-2022 16:56:04.878 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} li elementi bul ve varsa tıkla" parameterizedStepValue:"<key> li elementi bul ve varsa tıkla" parameters:"key"}}
+16-03-2022 16:56:04.878 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> li elementi bul"}
+16-03-2022 16:56:04.879 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} li elementi bul" parameterizedStepValue:"<key> li elementi bul" parameters:"key"}}
+16-03-2022 16:56:04.879 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<times> kere aşağı kaydır"}
+16-03-2022 16:56:04.879 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} kere aşağı kaydır" parameterizedStepValue:"<times> kere aşağı kaydır" parameters:"times"}}
+16-03-2022 16:56:04.879 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"<key> saniye bekle"}
+16-03-2022 16:56:04.879 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"{} saniye bekle" parameterizedStepValue:"<key> saniye bekle" parameters:"key"}}
+16-03-2022 16:56:04.950 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Visit insider site and check Insider home page is opened"}
+16-03-2022 16:56:04.950 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Visit insider site and check Insider home page is opened" parameterizedStepValue:"Visit insider site and check Insider home page is opened"}}
+16-03-2022 16:56:04.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Select More menu and click Careers option"}
+16-03-2022 16:56:04.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Select More menu and click Careers option" parameterizedStepValue:"Select More menu and click Careers option"}}
+16-03-2022 16:56:05.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Select More menu and click Careers option"}
+16-03-2022 16:56:05.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Select More menu and click Careers option" parameterizedStepValue:"Select More menu and click Careers option"}}
+16-03-2022 16:56:05.166 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click See All Teams button and select Quality Assurance option"}
+16-03-2022 16:56:05.166 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See All Teams button and select Quality Assurance option" parameterizedStepValue:"Click See All Teams button and select Quality Assurance option"}}
+16-03-2022 16:56:05.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click See All Teams button and select Quality Assurance option"}
+16-03-2022 16:56:05.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See All Teams button and select Quality Assurance option" parameterizedStepValue:"Click See All Teams button and select Quality Assurance option"}}
+16-03-2022 16:56:05.281 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click See all QA jobs button"}
+16-03-2022 16:56:05.281 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See all QA jobs button" parameterizedStepValue:"Click See all QA jobs button"}}
+16-03-2022 16:56:05.340 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click See all QA jobs button"}
+16-03-2022 16:56:05.340 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click See all QA jobs button" parameterizedStepValue:"Click See all QA jobs button"}}
+16-03-2022 16:56:05.342 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Added Location İstanbul, Turkey and department Quality Assurance filters"}
+16-03-2022 16:56:05.342 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters" parameterizedStepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters"}}
+16-03-2022 16:56:05.411 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Added Location İstanbul, Turkey and department Quality Assurance filters"}
+16-03-2022 16:56:05.411 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters" parameterizedStepValue:"Added Location İstanbul, Turkey and department Quality Assurance filters"}}
+16-03-2022 16:56:05.412 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click apply now button and redirects us to Lever Application form page"}
+16-03-2022 16:56:05.412 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click apply now button and redirects us to Lever Application form page" parameterizedStepValue:"Click apply now button and redirects us to Lever Application form page"}}
+16-03-2022 16:56:05.477 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Click apply now button and redirects us to Lever Application form page"}
+16-03-2022 16:56:05.477 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click apply now button and redirects us to Lever Application form page" parameterizedStepValue:"Click apply now button and redirects us to Lever Application form page"}}
+16-03-2022 16:58:44.566 [Gauge] [INFO] Watching directory: /Users/ayselbilici/Desktop/ProjectWithGauge/specs
+16-03-2022 16:58:44.567 [Gauge] [DEBUG] Found 2 files
+16-03-2022 16:58:44.569 [Gauge] [INFO] Initializing concepts cache with 6 concepts
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding concepts from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.cpt
+16-03-2022 16:58:44.569 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-03-2022 16:58:44.569 [Gauge] [DEBUG] Adding specs from /Users/ayselbilici/Desktop/ProjectWithGauge/specs/Insider.spec
+16-03-2022 16:58:44.569 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-03-2022 16:58:44.569 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52790

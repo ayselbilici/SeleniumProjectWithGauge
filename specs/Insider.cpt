@@ -1,0 +1,36 @@
+# Visit insider site and check Insider home page is opened
+* Elementine tıkla "Mainpage_CookieButton"
+* Element var mı kontrol et "Mainpage_Mainhead"
+* Şuanki URL "https://useinsider.com/" değerini içeriyor mu kontrol et
+
+# Select More menu and click Careers option
+* Elementine tıkla "Mainpage_MoreButton"
+* Elementine tıkla "Mainpage_CareersButton"
+* "3" saniye bekle
+* Element var mı kontrol et "Careerpage_Locationheader"
+* Element var mı kontrol et "Careerpage_Lifearea"
+
+# Click See All Teams button and select Quality Assurance option
+* "Careerpage_AllteamsButton" li elementi bul
+* "3" saniye bekle
+* Elementine tıkla "Careerpage_AllteamsButton"
+* "8" kere aşağı kaydır
+* Elementine tıkla "Careerpage_QAButton_ClickAction"
+* "5" saniye bekle
+* Element var mı kontrol et "QApage_AllJobsButton"
+
+# Click See all QA jobs button
+* Elementine tıkla "QApage_AllJobsButton"
+* "5" saniye bekle
+
+# Added Location İstanbul, Turkey and department Quality Assurance filters
+* Elementine tıkla "QApage_locationfilter_button"
+* "Istanbul_Text" li elementi bul ve varsa tıkla
+* Elementine tıkla "QApage_locationfilter_button"
+* "5" saniye bekle
+
+# Click apply now button and redirects us to Lever Application form page
+* "2" kere aşağı kaydır
+* "Firstjob_applybutton" li elementi bul ve varsa tıkla
+* Son sekmeye odaklan
+* Element var mı kontrol et "Firstjobpage_applybutton"
